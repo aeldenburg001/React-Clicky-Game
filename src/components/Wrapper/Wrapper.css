@@ -1,6 +1,9 @@
 .wrapper {
+    background: url(https://images.pexels.com/photos/2096613/pexels-photo-2096613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #ECF0F1;
     padding-top: 50px;
-    background: #ECF0F1;
     height: 100%;
     display: flex;
     flex-flow: row wrap;
