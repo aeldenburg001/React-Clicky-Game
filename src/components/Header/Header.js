@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-const Header = props => (
+var Header = props => (
   <div className="header">
       <div className="title">
           <h1>Welcome to the React Clicky Game: NBA Edition</h1>

@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import cards from "./cards.json";
 
 class App extends React.Component {
+  
   // Setting this.state.cards to the cards json array
   state = {
     cards,
@@ -43,7 +44,7 @@ class App extends React.Component {
       }
     });
   }
-  
+
   // Map over this.state.cards and render a cardCard component for each card object
   render() {
     return (
